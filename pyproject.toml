@@ -7,7 +7,7 @@ dev = ["pandas", "cv2", "matplotlib.pyplot", "sdv", "sklearn"]
 
 [project]
 name = "daga"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Elene Astondoa and Ane Martínez", email="anemartinezorellana@outlook.es" },
 ]
