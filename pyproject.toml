@@ -1,17 +1,17 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=61.0", "pandas>=1.5.0", "opencv-python>=4.6.0", "random", "matplotlib.pyplot", "time", "sdv>=0.17.1", "sklearn>=1.1.2"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "daga"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Elene Astondoa and Ane Martínez", email="anemartinezorellana@outlook.es" },
 ]
 description = "This is a library that makes data augmentation based on SDV library using a single objective algorithm to get the distributions of the variables."
 readme = "README.md"
 requires-python = ">=3.9"
-install_requires = ['pandas', 'opencv-python', 'random', 'matplotlib', 'python-time', 'sdv', 'scikit-learn']
+install_requires = ["pandas", "opencv-python", "random", "matplotlib", "python-time", "sdv", "scikit-learn"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
