@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0", "pandas>=1.5.0", "opencv-python>=4.6.0", "random", "matplotlib>=3.6.0", "time", "sdv>=0.17.1", "sklearn>=1.1.2"]
+requires = ["setuptools>=61.0", "pandas>=1.5.0", "opencv-python>=4.6.0", "matplotlib>=3.6.0", "sdv>=0.17.1", "sklearn>=1.1.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
