@@ -10,14 +10,12 @@ El projecto se empezó en 2022 por [Ane Martínez](https://github.com/anemartine
 
 daga requiere:
 
-- Python (>=3.9)
-- Pandas
-- Opencv-python
-- Random
-- Matplotlib
-- Python-time
-- SDV
-- Scikit-learn
+- python (>=3.9)
+- pandas (>=1.5.0)
+- opencv-python (>=4.6.0)
+- matplotlib (>=3.6.0)
+- sdv (>=0.17.1)
+- scikit-learn (>=1.1.2)
 
 ### Instalación para el usuario
 Usando ``pip``:
