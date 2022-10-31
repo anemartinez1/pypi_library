@@ -2,6 +2,9 @@
 requires = ["setuptools>=61.0", "pandas>=1.5.0", "opencv-python>=4.6.0", "matplotlib>=3.6.0", "sdv>=0.17.1", "scikit-learn>=1.1.2"]
 build-backend = "setuptools.build_meta"
 
+[project.optional-dependencies]
+dev = ["pandas", "cv2", "matplotlib.pyplot", "sdv", "sklearn"]
+
 [project]
 name = "daga"
 version = "0.0.3"
